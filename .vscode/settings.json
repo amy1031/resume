@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "editor.renderWhitespace": "all",
+  "files.associations": {
+    ".vue": "vue",
+    ".sass": "sass",
+    "*.vue": "vue"
+  },
+"workbench.iconTheme": "vs-seti"
+}
