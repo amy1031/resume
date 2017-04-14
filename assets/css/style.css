@@ -19,6 +19,10 @@ body {
   padding-right: 15px;
 }
 
+.header a {
+  color: #4f4f4f;
+}
+
 h1 {
   color: #C70039;
   font-size: 46px;
@@ -83,4 +87,8 @@ ul li {
   padding-left: 25px;
   list-style-position: inside;
   text-indent: -2em;
+}
+
+p {
+  padding-left: 25px;
 }
