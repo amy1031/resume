@@ -1,12 +1,14 @@
-$purple: #C70039
+$pink: #C70039
+$pink-light: #c65374
 $hire: #1d942f
 $link: #4f4f4f
+$gray: #4f4f4f
 
 body 
     background-color: #fcfff9
 
 .header
-    border-bottom: double $purple
+    border-bottom: double $pink
     padding: 10px
     & h4
         padding-left: 50px
@@ -18,16 +20,10 @@ body
         padding-right: 15px
 
 .sidebar
-    padding: 10px
-
-.main
-    padding: 10px
-    margin-left: 0px
-    & h4
-        color: $purple
-
+    padding: 
+    
 h1
-    color: $purple
+    color: $pink
     font-size: 46px
     font-family: Patua One
 
@@ -47,10 +43,30 @@ h3
 h5
     padding-left: 20px
     font-size: 16px
-h6
-    padding-left: 20px
-    margin-top: -3px
-    font-size: 14px
 
-p 
+h6
     padding-left: 25px
+    margin-top: -5px
+    font-size: 12px
+
+.main
+    padding: 10px
+    margin-left: 0px
+    & h3
+        color: $pink
+        text-align: left
+    & h4
+        padding-left: 10px
+        padding-top: 5px
+        font-size: 16px
+    & h5
+        margin-top: 5px
+        font-size: 14px
+        padding-left: 25px
+        font-weight: bold
+        color: $pink-light
+
+ul li
+    padding-left: 25px
+    list-style-position: inside
+    text-indent: -2em

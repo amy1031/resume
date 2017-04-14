@@ -19,19 +19,6 @@ body {
   padding-right: 15px;
 }
 
-.sidebar {
-  padding: 10px;
-}
-
-.main {
-  padding: 10px;
-  margin-left: 0px;
-}
-
-.main h4 {
-  color: #C70039;
-}
-
 h1 {
   color: #C70039;
   font-size: 46px;
@@ -63,11 +50,37 @@ h5 {
 }
 
 h6 {
-  padding-left: 20px;
-  margin-top: -3px;
-  font-size: 14px;
+  padding-left: 25px;
+  margin-top: -5px;
+  font-size: 12px;
 }
 
-p {
+.main {
+  padding: 10px;
+  margin-left: 0px;
+}
+
+.main h3 {
+  color: #C70039;
+  text-align: left;
+}
+
+.main h4 {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.main h5 {
+  margin-top: 5px;
+  font-size: 14px;
   padding-left: 25px;
+  font-weight: bold;
+  color: #c65374;
+}
+
+ul li {
+  padding-left: 25px;
+  list-style-position: inside;
+  text-indent: -2em;
 }
