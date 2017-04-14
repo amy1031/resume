@@ -1,5 +1,6 @@
 $purple: #C70039
 $hire: #1d942f
+$link: #4f4f4f
 
 body 
     background-color: #fcfff9
@@ -8,7 +9,7 @@ body
     border-bottom: double $purple
     padding: 10px
     & h4
-        padding-left: 35px
+        padding-left: 50px
         padding-top: 5px
     & img 
         width: 125px
@@ -22,6 +23,8 @@ body
 .main
     padding: 10px
     margin-left: 0px
+    & h4
+        color: $purple
 
 h1
     color: $purple
@@ -36,5 +39,18 @@ h2
         margin-top: 0px
         color: $hire
 
-h5, h6
+h3
+    text-align: right
+    & a 
+        color: $link
+
+h5
     padding-left: 20px
+    font-size: 16px
+h6
+    padding-left: 20px
+    margin-top: -3px
+    font-size: 14px
+
+p 
+    padding-left: 25px
